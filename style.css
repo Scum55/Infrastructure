@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px; 
+    padding: .6em; 
   }
   
   #n1 ul {
@@ -16,15 +16,19 @@
   
   #n1 li {
     display: inline-block;
-    margin: 0 10px; 
+    margin: 0 .8em; 
   }
   
   #n1 li a {
     display: block;
     color: #ececec; 
     text-decoration: none;
-    padding: 10px; 
-    font-size: 18px;
+    padding: .8em; 
+    font-size: 1em;
+  }
+  #n1 li:hover{
+    background-color: darkcyan;
+
   }
   aside {
     width: 30%;
