@@ -1,0 +1,77 @@
+#n1 {
+    background-color: #142d4c; /* Change this to your desired background color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; /* Change this to your desired padding */
+  }
+  
+  #n1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  #n1 li {
+    display: inline-block;
+    margin: 0 10px; /* Change this to your desired margin */
+  }
+  
+  #n1 li a {
+    display: block;
+    color: #ececec; /* Change this to your desired text color */
+    text-decoration: none;
+    padding: 10px; /* Change this to your desired padding */
+    font-size: 18px; /* Change this to your desired font size */
+  }
+  aside {
+    width: 30%;
+    padding-left: 1em;
+    margin-left: 1.25em;
+    float: right;
+    font-style: italic;
+    font-size: large;
+    background-color: #385170;
+    color: #ececec;
+  } 
+  h1{
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+  }
+  h2{
+    text-align: left;
+  }
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+     background: #9fd3c7; 
+  
+  }
+
+  section {
+    margin: 4em;
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 3em;
+    min-height: 50vh
+  }
+
+    .first-color { 
+    background: #ececec; 
+  }
+    
+  .second-color { 
+    background: #9fd3c7; 
+  }
+  
+  .third-color { 
+    background: #385170; 
+  }
+  
+  .fourth-color { 
+    background: #142d4c; 
+  }
