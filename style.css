@@ -1,10 +1,10 @@
 #n1 {
-    background-color: #142d4c; /* Change this to your desired background color */
+    background-color: #142d4c;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px; /* Change this to your desired padding */
+    padding: 10px; 
   }
   
   #n1 ul {
@@ -16,15 +16,15 @@
   
   #n1 li {
     display: inline-block;
-    margin: 0 10px; /* Change this to your desired margin */
+    margin: 0 10px; 
   }
   
   #n1 li a {
     display: block;
-    color: #ececec; /* Change this to your desired text color */
+    color: #ececec; 
     text-decoration: none;
-    padding: 10px; /* Change this to your desired padding */
-    font-size: 18px; /* Change this to your desired font size */
+    padding: 10px; 
+    font-size: 18px;
   }
   aside {
     width: 30%;
@@ -50,6 +50,10 @@
     padding: 0;
      background: #9fd3c7; 
   
+  }
+  img {
+    margin-top: .75em;
+    margin-bottom: .75em;
   }
 
   section {
