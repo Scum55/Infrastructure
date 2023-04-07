@@ -67,6 +67,28 @@
     margin-top: 3em;
     min-height: 50vh
   }
+  #but-left{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 3em;
+
+  }
+  #but-left img {
+    width: 8em;
+    height: 8em;
+  }
+  #but-right{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 3em;
+    padding-left: 105em;
+  }
+  #but-right img{
+    width: 8em;
+    height: 8em;
+  }
 
     .first-color { 
     background: #ececec; 
