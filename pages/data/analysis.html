@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <nav id="n1">
+    <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../topic.html">Topic</a></li>
+        <li><a href="../Research/Research.html">Research</a></li>
+        <li><a href="../data/data.html">Data</a></li>
+        <li><a href="../references.html">References</a></li>
+        <li><a href="../style.html">Style</a></li>
+        <li><a href="../layout.html">Layout</a></li>
+        <li><a href="../../modality.html">Modality</a></li>
+        <li><a href="../proff.html">Professionalization</a></li>
+
+    </ul>
+</nav>
+<section>
+<h1>Run inferential statistics</h1>
+<p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial.)</p>
+<ol>
+    <li>When PASW starts, it will prompt you for a data source. Select <strong>Open an existing data source > More Files...</strong></li>
+    <li>Set the file type to Excel, then find and open the file.</li>
+    <li>From the list, select the Formatted_Data worksheet. Click OK. You should now see the dataset.
+    </li>
+</ol>
+<p>
+    The most commonly used statistical methods and tests are found under the Analyze menu in the standard toolbar.
+</p>
+<p>
+    Figure 5 shows where to find some common statistical methods and tests. Under PASW's Analyze menu, see if you can also find the following:
+    <ol>
+        <li>Wilcoxon-Mann-Whitney test</li>
+        <li>Simple linear regression</li>
+        <li>Non-parametric correlation</li>
+    </ol>
+</p>
+<figure>
+    <img src="../../static/datalesson_fig5.png">
+    <figcaption>Figure 5: Don't assume PASW doesn't run a given test. Many are located under broader statistical classifications.</figcaption>
+</figure>
+<p>Use your prior knowledge or the <a href="http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.html">Choosing the Correct Statistic</a> resource to determine which statistic to run to find whether there is a significant difference in perc_usefulness between free_play and other tutorial types.
+</p>
+<aside>
+    <h3>Choosing the correct statistic</h3>
+    <p>
+    Consult <a href="http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.html">UCLA's Choosing the Correct Statistic</a> to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.
+    </p>
+</aside>
+<p>
+    You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test.
+     Go to <strong> Analyze > Nonparametric Tests > K Independent Samples...</strong> 
+     A new window will open prompting you to select the variables (by column name) to be tested.
+
+     <ol>
+        <li>Select the <i>perc_usefulness</i> variable from the scrollable list on the left, and click the top arrow to move it to the Test Variable List (i.e. dependent variable).
+        </li>
+        <li>Select the <i>free_play</i> variable from the scrollable list, and click the bottom arrow to move it to the Grouping Variable section (i.e. independent variable).
+        </li>
+        <li>Click <strong>Define Range...,</strong> and enter "0" in the Minimum field and "1" in the Maximum field. 
+            This specifies the two categorical variables to be tested. Your screen should now look like Figure 6. Click Continue.</li>
+     </ol>
+     <figure>
+        <img src="../../static/datalesson_fig7.png">
+        <figcaption>Figure 7:  PASW allows users to export statistics to common document types.</figcaption>
+     </figure>
+</p>
+<h2>
+    Test your knowledge
+</h2>
+<p>
+    Now that you've finished the lesson, please complete a short quiz to test your understanding of formatting research datasets for comprehensive statistical analysis.
+
+</p>
+</section>
+</body>
+</html>
