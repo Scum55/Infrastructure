@@ -89,7 +89,7 @@
     border: none;
     cursor: pointer;
     padding-top: 3em;
-    padding-left: 105em;
+    float:right;
   }
   #but-right img{
     width: 8em;
